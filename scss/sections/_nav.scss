@@ -1,0 +1,39 @@
+/*INICIA NAV*/
+.header-pedidos {
+    background-color: map-get($map: $paleta, $key: 'uno' );
+    text-align: center;
+    font-family: $ff-nunito;
+    font-size: $text-sm;
+} 
+
+.nav {
+    background-color: map-get($map: $paleta, $key: 'tres' );
+    .logo-panaderia{
+        max-height: 50px;
+        margin: 3px;
+    }
+    .links-lista {
+        color: map-get($map: $paleta, $key: 'seis' );
+        text-decoration: none;
+        list-style: none;
+        font-family: $ff-nunito;
+        font-weight: lighter;
+        font-size: $text-sm;
+        @include breakpoint-md {
+            font-size: $text-md;
+            transition: 1s;
+        }
+        @include breakpoint-lg {
+            font-size: $text-lg;
+            transition: 1s;
+        }
+        &:hover {
+            color: map-get($map: $paleta, $key: 'cuatro' );
+            transition: 0.5s;
+            border-radius: 4px;
+            cursor: pointer;
+        } 
+    }
+}
+/*TERMINA NAV*/
+

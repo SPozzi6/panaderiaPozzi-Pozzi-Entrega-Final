@@ -1,0 +1,33 @@
+//INICIA PAGINA ERROR 404
+
+.d-flex-center {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .max-width {
+        max-width: 400px;
+    }    
+        .text-center {
+            text-align: center;
+        }
+        .h2-titulo {
+            font-family: $ff-nunito;
+            font-size: $title2-lg;
+            font-weight: bold;
+        }
+        .h3-subtitulo {
+            font-family: $ff-nunito;
+            font-size: $title2-md;
+            font-weight: bold;
+        }
+        .button {
+            @include boton;
+            text-decoration: none;
+            &:hover {
+                background-color: map-get($map: $paleta, $key: 'cuatro' );
+                color: map-get($map: $paleta, $key: 'uno');
+                transition: 1s;
+            }
+        }
+}

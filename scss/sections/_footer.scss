@@ -1,0 +1,30 @@
+/*INICIA FOOTER*/
+.contenedor-footer {
+    font-family: $ff-nunito;
+    @include flex-column;
+    background-color: map-get($map: $paleta, $key: 'cinco');
+    margin: 12px;
+        .informacion-contacto {
+            text-align: center;
+            padding: 3px;
+            .texto {
+                font-size: $text-sm;
+                color: map-get($map: $paleta, $key: 'seis');
+            }
+        }
+        .h3-titulo {
+            @include subtitulo-sm;
+            color: map-get($map: $paleta, $key: 'seis');
+            @include breakpoint-md {
+                @include subtitulo-md;
+            }
+        }
+        .contenedor-logos-redes {
+            margin: 3px auto;
+            .logos-redes {
+                margin-bottom: 6px;
+                padding: 6px;
+            }
+        }
+}
+/*TERMINA FOOTER*/

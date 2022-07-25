@@ -1,0 +1,66 @@
+/*INICIA FORM*/
+
+.h2-titulo {
+    font-family: $ff-ubuntu;
+    @include titulo-md;
+        @include breakpoint-md {
+            @include titulo-lg;
+        }
+}
+
+.contenedor-form {
+    @include flex-column;
+    @include breakpoint-lg {
+        @include flex-row;
+    }
+    .contenedor-casillas {
+        width: 100%;
+        @include breakpoint-lg {
+            width: 50%
+        }
+        .h2-titulo {
+            font-family: $ff-nunito;
+            @include titulo-sm;
+            @include breakpoint-md {
+                @include titulo-md;
+            }
+        }
+        .texto {
+            font-family: $ff-nunito;
+            font-size: $text-sm;
+        }
+        .button {
+            @include boton;
+            &:hover {
+                background-color: map-get($map: $paleta, $key: 'cuatro' );
+                color: map-get($map: $paleta, $key: 'uno');
+                transition: 1s;
+            }
+        }
+        .button-rounded {
+            @extend .button;
+            border-radius: 6px;
+        }
+    }
+    .contenedor-mapa {
+        width: 100%;
+        @include breakpoint-lg {
+            width: 50%
+        }
+        .h2-titulo{
+            font-family: $ff-nunito;
+            @include titulo-sm;
+            @include breakpoint-md {
+                @include titulo-md;
+            }
+        }
+        .mapa {
+            height: 300px;
+            @include breakpoint-lg {
+                height: 420px;
+            }
+        }
+    }
+
+}
+/*TERMINA FORM*/

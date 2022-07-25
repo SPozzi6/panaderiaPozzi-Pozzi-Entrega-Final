@@ -1,0 +1,34 @@
+/*INICIA HEADER*/
+.header {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    overflow: hidden;
+    .h1-header {
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: map-get($map: $paleta, $key: 'seis' );
+        width: 100%;
+        font-family: $ff-satisfy;
+        font-size: $title1-sm;
+        transition: 1s;
+        @include breakpoint-md {
+            font-size: $title1-md;
+        }
+        @include breakpoint-lg {
+            font-size: $title1-lg;
+        }
+    }
+    .imagen-header {
+        width: 100%;
+        height: 20vh;
+        object-fit: cover;
+        @include breakpoint-md {
+            height: 72vh;
+        }
+    }
+}
+/*TERMINA HEADER*/

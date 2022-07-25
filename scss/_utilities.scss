@@ -1,0 +1,84 @@
+//MAP
+$paleta: (
+    'uno': #f2f2f2,
+    'dos': #f2c894,
+    'tres': #d98841,
+    'cuatro': #a64f03,
+    'cinco': #8c4c27,
+    'seis': white,
+    'siete': black,
+);
+
+//FLEX
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+//TITULO H2
+@mixin titulo-sm {
+    font-size: $title2-sm;
+    text-decoration: underline;
+    padding: 12px;
+    text-align: center;
+    transition: 1s;
+}
+
+@mixin titulo-md {
+    font-size: $title2-md;
+    text-decoration: underline;
+    padding: 12px;
+    text-align: center;
+    transition: 1s;
+}
+
+@mixin titulo-lg {
+    font-size: $title2-lg;
+    text-decoration: underline;
+    padding: 12px;
+    text-align: center;
+    transition: 1s;
+}
+
+//TITULO H3
+@mixin subtitulo-sm {
+    font-size: $title3-sm;
+    padding: 12px;
+    text-align: center;
+    transition: 1s;
+}
+
+@mixin subtitulo-md {
+    font-size: $title3-md;
+    padding: 12px;
+    text-align: center;
+    transition: 1s;
+}
+
+@mixin subtitulo-lg {
+    font-size: $title3-lg;
+    padding: 12px;
+    text-align: center;
+    transition: 1s;
+}
+
+//BUTTON
+@mixin boton {
+    font-family: $ff-nunito;
+    font-size: $text-sm;
+    background-color: map-get($map: $paleta, $key: 'tres');
+    border: none;
+    color: map-get($map: $paleta, $key: 'seis');
+    cursor: pointer;
+}
