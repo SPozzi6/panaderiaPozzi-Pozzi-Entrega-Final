@@ -1,0 +1,5 @@
+Para mejorar el SEO de mi página web incorpore:
+    *Descripcion: utilice la etiqueta meta description en cada pestaña detallando el contenido de la misma.
+    *Palabras clave: utilice meta keywords relacionados con el contenido de la pagina y del rubro de la misma.
+    *Titulos: realice cambios en los titulos referidos a su referente página.
+    *Encabezado: utilice H1 en cada seccíon de mi página para hacer introduccíon a lo que se mostrará en la misma.
