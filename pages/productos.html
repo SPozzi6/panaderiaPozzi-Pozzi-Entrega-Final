@@ -63,107 +63,384 @@
     <!--INICIA HEADER-->
     <header class="header">
         <h1 class="h1-header">Productos</h1>
-        <img src="../images/imagenes-principales/panaderia2.jpg" alt="imagen del header de Panadería Pozzi" class="imagen-header">
+        <img src="../images/imagenes-principales/banner2.jpg" alt="imagen del header de Panadería Pozzi" class="imagen-header">
     </header>
     <!--TERMINA HEADER-->
         
     <!--EMPIEZA MAIN-->
     <main>
         <div class="contenedor-general img-thumbnail mx-5 my-5">    
-            <!--EMPIEZA FORMULARIO DE COMPRA-->
+            <!--EMPIEZA SECCION PRODUCTOS-->
             <section class="py-5 px-3">
                 <div class="container-fluid p-0">
                     <div class="py-3">
                         <h2 class="h2-titulo">Nuestros productos</h2>
                     </div>
                     <div class="row contenedor-productos">
-                        <h2 class="h2-titulo">Nuestra variedad de Facturas</h2>
+                        <!--EMPIEZA SECCION FACTURAS-->
+                        <h2 class="h2-titulo">Facturas</h2>
+                        
                         <article class="col-sm-12 col-md-6 col-xl-3 producto py-3">
                             <div class="imagen-producto">
-                                <img src="../images/productos/factura1.png" alt="imagen del producto Medialunas" class="imagen-producto-width">
+                                <img src="../images/productos/facturas/factura1.png" alt="imagen del producto Medialunas de manteca" class="imagen-producto-width">
                             </div>
-                            <h3 class="h3-titulo">Medialunas</h3>
+                            <h3 class="h3-titulo">Medialunas de manteca</h3>
                             <p class="texto">Precio: 50$ c/u</p>
                         </article>
+                        
                         <article class="col-sm-12 col-md-6 col-xl-3 producto py-3">
                             <div class="imagen-producto">
-                                <img src="../images/productos/factura2.png" alt="imagen del producto Tortas negras" class="imagen-producto-width">
+                                <img src="../images/productos/facturas/factura2.png" alt="imagen del producto Tortas negras" class="imagen-producto-width">
                             </div>
                             <h3 class="h3-titulo">Tortas negras</h3>
                             <p class="texto">Precio: 50$ c/u</p>
                         </article>
+                        
                         <article class="col-sm-12 col-md-6 col-xl-3 producto py-3">
                             <div class="imagen-producto">
-                                <img src="../images/productos/factura3.png" alt="imagen del producto Cañoncitos de dulce de leche" class="imagen-producto-width">
+                                <img src="../images/productos/facturas/factura3.png" alt="imagen del producto Cañoncitos de dulce de leche" class="imagen-producto-width">
                             </div>
                             <h3 class="h3-titulo">Cañoncitos de dulce de leche</h3>
                             <p class="texto">Precio: 50$ c/u</p>
                         </article>
+                        
                         <article class="col-sm-12 col-md-6 col-xl-3 producto py-3">
                             <div class="imagen-producto">
-                                <img src="../images/productos/factura4.png" alt="imagen del producto Vigilantes" class="imagen-producto-width">
+                                <img src="../images/productos/facturas/factura4.png" alt="imagen del producto Vigilantes" class="imagen-producto-width">
                             </div>
                             <h3 class="h3-titulo">Vigilantes</h3>
                             <p class="texto">Precio: 50$ c/u</p>
                         </article>
+                        
                         <article class="col-sm-12 col-md-6 col-xl-3 producto py-3">
-                            <div class="imagen-producto">
-                                <img src="../images/productos/factura5.png" alt="imagen del producto Bola de fraile" class="imagen-producto-width">
+                            <div id="carouselSeis" class="carousel slide imagen-producto" data-bs-interval="false">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="../images/productos/facturas/bizcocho1.jpg" class="d-block imagen-producto-width" alt="imagen del producto Bizcochos salados">
+                                        <div class="carousel-caption d-none d-sm-block">
+                                        <h3 class="h3-titulo">Bizcochos salados</h3>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../images/productos/facturas/bizcocho2.jpg" class="d-block imagen-producto-width" alt="imagen del producto Bizcochos dulces">
+                                        <div class="carousel-caption d-none d-sm-block">
+                                            <h3 class="h3-titulo">Bizcochos dulces</h3>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../images/productos/facturas/bizcocho3.jpg" class="d-block imagen-producto-width" alt="imagen del producto Bizcochos con crema">
+                                        <div class="carousel-caption d-none d-sm-block">
+                                            <h3 class="h3-titulo">Bizcochos con crema</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselSeis" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselSeis" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
                             </div>
-                            <h3 class="h3-titulo">Bola de fraile</h3>
-                            <p class="texto">Precio: 50$ c/u</p>
+                            <h3 class="h3-titulo">Bizcochos</h3>
+                            <p class="texto">Precio: 300$ 1KL</p>
                         </article>
+                        
                         <article class="col-sm-12 col-md-6 col-xl-3 producto py-3">
                             <div class="imagen-producto">
-                                <img src="../images/productos/factura6.png" alt="imagen del producto Sacramento" class="imagen-producto-width">
+                                <img src="../images/productos/facturas/factura6.png" alt="imagen del producto Sacramento" class="imagen-producto-width">
                             </div>
                             <h3 class="h3-titulo">Sacramento</h3>
                             <p class="texto">Precio: 50$ c/u</p>
                         </article>
+                        
                         <article class="col-sm-12 col-md-6 col-xl-3 producto py-3">
                             <div class="imagen-producto">
-                                <img src="../images/productos/factura7.png" alt="imagen del producto Sacramento relleno" class="imagen-producto-width">
+                                <img src="../images/productos/facturas/factura7.png" alt="imagen del producto Sacramento relleno" class="imagen-producto-width">
                             </div>
                             <h3 class="h3-titulo">Sacramento relleno</h3>
                             <p class="texto">Precio: 50$ c/u</p>
                         </article>
+                        
                         <article class="col-sm-12 col-md-6 col-xl-3 producto py-3">
                             <div class="imagen-producto">
-                                <img src="../images/productos/factura8.png" alt="imagen del producto Hojaldradas" class="imagen-producto-width">
+                                <img src="../images/productos/facturas/factura8.png" alt="imagen del producto Hojaldradas" class="imagen-producto-width">
                             </div>
                             <h3 class="h3-titulo">Hojaldradas</h3>
                             <p class="texto">Precio: 50$ c/u</p>
                         </article>
+                        <!--TERMINA SECCION FACTURAS-->
+
+                        <!--EMPIEZA SECCION PANES-->
+                        <h2 class="h2-titulo">Panes</h2>
                         
-                        <h2 class="h2-titulo">Nuestra variedad de Panes</h2>
                         <article class="col-sm-12 col-md-6 col-xl-3 producto py-3">
                             <div class="imagen-producto">
-                                <img src="../images/productos/pan1.png" alt="imagen del producto Pan frances" class="imagen-producto-width">
+                                <img src="../images/productos/panes/pan1.png" alt="imagen del producto Pan frances" class="imagen-producto-width">
                             </div>
                             <h3 class="h3-titulo">Pan frances</h3>
                             <p class="texto">Precio: 300$ 1KL</p>
                         </article>
+                        
                         <article class="col-sm-12 col-md-6 col-xl-3 producto py-3">
                             <div class="imagen-producto">
-                                <img src="../images/productos/pan2.png" alt="imagen del producto Pan integral" class="imagen-producto-width">
+                                <img src="../images/productos/panes/pan2.png" alt="imagen del producto Pan integral" class="imagen-producto-width">
                             </div>
                             <h3 class="h3-titulo">Pan integral</h3>
                             <p class="texto">Precio: 300$ 1KL</p>
                         </article>
+                        
                         <article class="col-sm-12 col-md-6 col-xl-3 producto py-3">
                             <div class="imagen-producto">
-                                <img src="../images/productos/pan3.png" alt="imagen del producto Pan de mignon" class="imagen-producto-width">
+                                <img src="../images/productos/panes/pan3.png" alt="imagen del producto Pan de mignon" class="imagen-producto-width">
                             </div>
                             <h3 class="h3-titulo">Pan de mignon</h3>
                             <p class="texto">Precio: 300$ 1KL</p>
                         </article>
+                        
                         <article class="col-sm-12 col-md-6 col-xl-3 producto py-3">
                             <div class="imagen-producto">
-                                <img src="../images/productos/pan4.png" alt="imagen del producto Pan árabe" class="imagen-producto-width">
+                                <img src="../images/productos/panes/pan4.png" alt="imagen del producto Pan árabe" class="imagen-producto-width">
                             </div>
                             <h3 class="h3-titulo">Pan árabe</h3>
                             <p class="texto">Precio: 300$ 1KL</p>
                         </article>
+                        
+                        <article class="col-sm-12 col-md-6 col-xl-3 producto py-3">
+                            <div class="imagen-producto">
+                                <img src="../images/productos/panes/pan5.png" alt="imagen del producto Pan de pebete" class="imagen-producto-width">
+                            </div>
+                            <h3 class="h3-titulo">Pan de pebete</h3>
+                            <p class="texto">Precio: 300$ 1KL</p>
+                        </article>
+                        
+                        <article class="col-sm-12 col-md-6 col-xl-3 producto py-3">
+                            <div class="imagen-producto">
+                                <img src="../images/productos/panes/pan6.png" alt="imagen del producto Pan de hamburguesa" class="imagen-producto-width">
+                            </div>
+                            <h3 class="h3-titulo">Pan de hamburguesa</h3>
+                            <p class="texto">Precio: 300$ 1KL</p>
+                        </article>
+                        
+                        <article class="col-sm-12 col-md-6 col-xl-3 producto py-3">
+                            <div class="imagen-producto">
+                                <img src="../images/productos/panes/pan7.png" alt="imagen del producto Pan de viena" class="imagen-producto-width">
+                            </div>
+                            <h3 class="h3-titulo">Pan de viena</h3>
+                            <p class="texto">Precio: 300$ 1KL</p>
+                        </article>
+                        
+                        <article class="col-sm-12 col-md-6 col-xl-3 producto py-3">
+                            <div class="imagen-producto">
+                                <img src="../images/productos/panes/pan8.png" alt="imagen del producto Pan de miga" class="imagen-producto-width">
+                            </div>
+                            <h3 class="h3-titulo">Pan de miga</h3>
+                            <p class="texto">Precio: 300$ 1KL</p>
+                        </article>
+                        <!--TERMINA SECCION PANES-->
+
+                        <!--EMPIEZA SECCION PASTELERIA DULCE-->
+                        <h2 class="h2-titulo">Pastelería dulce</h2>
+                        
+                        <article class="col-sm-12 col-md-6 col-xl-3 producto py-3">
+                            <div id="carouselUno" class="carousel slide imagen-producto" data-bs-interval="false">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="../images/productos/pasteleria-dulce/budin1.jpg" class="d-block imagen-producto-width" alt="imagen del producto Budín de vainilla">
+                                        <div class="carousel-caption d-none d-sm-block">
+                                        <h3 class="h3-titulo">Budín de vainilla</h3>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../images/productos/pasteleria-dulce/budin2.jpg" class="d-block imagen-producto-width" alt="imagen del producto Budín marmolado">
+                                        <div class="carousel-caption d-none d-sm-block">
+                                            <h3 class="h3-titulo">Budín marmolado</h3>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../images/productos/pasteleria-dulce/budin3.jpg" class="d-block imagen-producto-width" alt="imagen del producto Budín de limón">
+                                        <div class="carousel-caption d-none d-sm-block">
+                                            <h3 class="h3-titulo">Budín de limón</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselUno" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselUno" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <h3 class="h3-titulo">Budines</h3>
+                            <p class="texto">Precio: 300$ 1KL</p>
+                        </article>
+                        
+                        <article class="col-sm-12 col-md-6 col-xl-3 producto py-3">
+                            <div class="imagen-producto">
+                                <img src="../images/productos/pasteleria-dulce/panhungaro.jpg" alt="imagen del producto Pan húngaro" class="imagen-producto-width">
+                            </div>
+                            <h3 class="h3-titulo">Pan húngaro</h3>
+                            <p class="texto">Precio: 300$ 1KL</p>
+                        </article>
+                        
+                        <article class="col-sm-12 col-md-6 col-xl-3 producto py-3">
+                            <div class="imagen-producto">
+                                <img src="../images/productos/pasteleria-dulce/tortas.jpg" alt="imagen del producto Tortas personalizadas" class="imagen-producto-width">
+                            </div>
+                            <h3 class="h3-titulo">Tortas personalizadas</h3>
+                            <p class="texto">Precio: 300$ 1KL</p>
+                        </article>
+                        
+                        <article class="col-sm-12 col-md-6 col-xl-3 producto py-3">
+                            <div id="carouselDos" class="carousel slide imagen-producto" data-bs-interval="false">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="../images/productos/pasteleria-dulce/tarta1.jpg" class="d-block imagen-producto-width" alt="imagen del producto Pastafrola">
+                                        <div class="carousel-caption d-none d-sm-block">
+                                        <h3 class="h3-titulo">Pastafrola</h3>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../images/productos/pasteleria-dulce/tarta2.jpg" class="d-block imagen-producto-width" alt="imagen del producto Tarta de coco">
+                                        <div class="carousel-caption d-none d-sm-block">
+                                            <h3 class="h3-titulo">Tarta de coco</h3>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../images/productos/pasteleria-dulce/tarta3.jpg" class="d-block imagen-producto-width" alt="imagen del producto Tarta tofi">
+                                        <div class="carousel-caption d-none d-sm-block">
+                                            <h3 class="h3-titulo">Tarta tofi</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselDos" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselDos" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <h3 class="h3-titulo">Tartas dulces</h3>
+                            <p class="texto">Precio: 300$ 1KL</p>
+                        </article>
+                        <!--TERMINA SECCION PASTELERIA DULCE-->
+
+                        <!--EMPIEZA SECCION PASTELERIA SALADA-->
+                        <h2 class="h2-titulo">Pastelería salada</h2>
+                        
+                        <article class="col-sm-12 col-md-6 col-xl-3 producto py-3">
+                            <div id="carouselTres" class="carousel slide imagen-producto" data-bs-interval="false">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="../images/productos/pasteleria-salada/sandwich1.jpg" class="d-block imagen-producto-width" alt="imagen del producto Sandwich de jamon y queso">
+                                        <div class="carousel-caption d-none d-sm-block">
+                                        <h3 class="h3-titulo">Sandwich de jamon y queso</h3>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../images/productos/pasteleria-salada/sandwich2.jpg" class="d-block imagen-producto-width" alt="imagen del producto Sandwich de lechuga y tomate">
+                                        <div class="carousel-caption d-none d-sm-block">
+                                            <h3 class="h3-titulo">Sandwich de lechuga y tomate</h3>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../images/productos/pasteleria-salada/sandwich3.jpg" class="d-block imagen-producto-width" alt="imagen del producto Sandwich en pan integral">
+                                        <div class="carousel-caption d-none d-sm-block">
+                                            <h3 class="h3-titulo">Sandwich en pan integral</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselTres" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselTres" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <h3 class="h3-titulo">Sandwichs</h3>
+                            <p class="texto">Precio: 300$ 1KL</p>
+                        </article>
+                        
+                        <article class="col-sm-12 col-md-6 col-xl-3 producto py-3">
+                            <div id="carouselCuatro" class="carousel slide imagen-producto" data-bs-interval="false">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="../images/productos/pasteleria-salada/empanada1.jpg" class="d-block imagen-producto-width" alt="imagen del producto Empanada de jamon y queso">
+                                        <div class="carousel-caption d-none d-sm-block">
+                                        <h3 class="h3-titulo">Empanada de jamon y queso</h3>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../images/productos/pasteleria-salada/empanada2.jpg" class="d-block imagen-producto-width" alt="imagen del producto Empanada de carne">
+                                        <div class="carousel-caption d-none d-sm-block">
+                                            <h3 class="h3-titulo">Empanada de carne</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselCuatro" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselCuatro" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <h3 class="h3-titulo">Empanadas
+                            </h3>
+                            <p class="texto">Precio: 300$ 1KL</p>
+                        </article>
+                        
+                        <article class="col-sm-12 col-md-6 col-xl-3 producto py-3">
+                            <div class="imagen-producto">
+                                <img src="../images/productos/pasteleria-salada/prepizza.jpg" alt="imagen del producto Pre-pizza" class="imagen-producto-width">
+                            </div>
+                            <h3 class="h3-titulo">Pre-pizza</h3>
+                            <p class="texto">Precio: 300$ 1KL</p>
+                        </article>
+                        
+                        <article class="col-sm-12 col-md-6 col-xl-3 producto py-3">
+                            <div id="carouselCinco" class="carousel slide imagen-producto" data-bs-interval="false">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="../images/productos/pasteleria-salada/tarta1.jpg" class="d-block imagen-producto-width" alt="imagen del producto Tarta de jamon y queso">
+                                        <div class="carousel-caption d-none d-sm-block">
+                                        <h3 class="h3-titulo">Tarta de jamon y queso</h3>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../images/productos/pasteleria-salada/tarta2.jpg" class="d-block imagen-producto-width" alt="imagen del producto Tarta de verdura">
+                                        <div class="carousel-caption d-none d-sm-block">
+                                            <h3 class="h3-titulo">Tarta de verdura</h3>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../images/productos/pasteleria-salada/tarta3.jpg" class="d-block imagen-producto-width" alt="imagen del producto Tarta de pollo">
+                                        <div class="carousel-caption d-none d-sm-block">
+                                            <h3 class="h3-titulo">Tarta de pollo</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselCinco" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselCinco" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <h3 class="h3-titulo">Tartas saladas</h3>
+                            <p class="texto">Precio: 300$ 1KL</p>
+                        </article>
+                        <!--TERMINA PASTELERIA SALADA-->
                     </div>
                 </div>
             </section>
@@ -188,7 +465,7 @@
             <a href="https://www.instagram.com" target="_blank">
                 <img src="../images/logo-redes/logoinstagram.png" class="logos-redes" alt="logo de instagram">
             </a>
-            <a href="https://www.twitter.com" target="_blank">
+            <a href="error404.html" target="_blank">
                 <img src="../images/logo-redes/logotwitter.png" class="logos-redes" alt="logo de twitter">
             </a>
             <a href="https://www.facebook.com" target="_blank">

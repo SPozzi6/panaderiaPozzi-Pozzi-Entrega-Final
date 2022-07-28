@@ -6,9 +6,9 @@
         .h2-titulo {
             font-family: $ff-ubuntu;
             @include titulo-md;
-                @include breakpoint-md {
-                    @include titulo-lg;
-                }
+            @include breakpoint-md {
+                @include titulo-lg;
+            }
         }
         .articulo {
             width: 100%;
